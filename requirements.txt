@@ -2,6 +2,6 @@ streamlit-lottie==0.0.5
 streamlit==1.25.0
 streamlit-option-menu==0.3.6
 tensorflow==2.13.0
-opencv-python==4.8.0.74
+opencv-python==4.5.5.64
 numpy==1.24.1
 pip==23.2.1
