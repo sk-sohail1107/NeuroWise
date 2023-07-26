@@ -53,8 +53,6 @@ def homee():
             st.write("Alzheimer's disease manifests through a wide range of symptoms that progress gradually over time. These symptoms can significantly impact an individual's cognitive abilities, behavior, and daily functioning. Some key points to consider regarding Alzheimer's symptoms include:")
             st.write(""":blue[**Loss of Initiative:**] Apathy and a reduced sense of initiative are common in later stages of the disease, leading to a decline in engaging in activities they once enjoyed.
 
-:blue[**Difficulties in Self-Care:**] As Alzheimer's progresses, individuals may struggle with basic self-care tasks like dressing, bathing, and eating.
-
 """)
 
         with content:
@@ -64,7 +62,7 @@ def homee():
 
 :blue[**Disorientation and Confusion:**] People with Alzheimer's often experience confusion about time, place, and people. They may get lost in familiar settings and have trouble recognizing loved ones.
 
-:blue[**Language Difficulties:**] Expressing oneself and understanding language can become challenging. Finding the right words and following conversations may be difficult.
+:blue[**Difficulties in Self-Care:**] As Alzheimer's progresses, individuals may struggle with basic self-care tasks like dressing, bathing, and eating.
 
 :blue[**Mood Swings and Behavioral Changes:**] Alzheimer's can lead to mood swings, irritability, anxiety, and agitation. Individuals may withdraw from social interactions and display uncharacteristic behaviors.
 
