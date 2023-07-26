@@ -1,0 +1,2 @@
+streamlit-lottie==0.0.5
+streamlit==1.25.0

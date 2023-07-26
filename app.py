@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 import home
 import classification
-import experiment
+
 
 st.set_page_config(page_title="NeuroWise",layout="wide", page_icon=":brain:")
 
