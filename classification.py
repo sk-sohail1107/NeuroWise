@@ -30,7 +30,7 @@ def classificationn():
     # )
     result = ""
     
-    st.title("Classification of Alzheimers :")
+    st.title("Classification of Alzheimers")
     uploaded_photo = st.file_uploader("Upload a photo", type = ["jpg", "png"])
     print(uploaded_photo)
     if uploaded_photo is None:
