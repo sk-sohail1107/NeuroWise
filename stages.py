@@ -25,7 +25,7 @@ def doc(pic, headerr, sub, cont1, linkk):
     with col2:
         st.image(pic)
     with col3:
-        st.header(headerr)
+        st.subheader(headerr)
         st.write(sub)
         st.write(cont1)
         st.write(linkk)
