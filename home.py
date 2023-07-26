@@ -50,6 +50,7 @@ def homee():
 
         with image:
             st.image(image2)
+            st.write("Alzheimer's disease manifests through a wide range of symptoms that progress gradually over time. These symptoms can significantly impact an individual's cognitive abilities, behavior, and daily functioning. Some key points to consider regarding Alzheimer's symptoms include:")
             st.write(""":blue[**Loss of Initiative:**] Apathy and a reduced sense of initiative are common in later stages of the disease, leading to a decline in engaging in activities they once enjoyed.
 
 :blue[**Difficulties in Self-Care:**] As Alzheimer's progresses, individuals may struggle with basic self-care tasks like dressing, bathing, and eating.
@@ -61,7 +62,6 @@ def homee():
 """)
 
         with content:
-            st.write("Alzheimer's disease manifests through a wide range of symptoms that progress gradually over time. These symptoms can significantly impact an individual's cognitive abilities, behavior, and daily functioning. Some key points to consider regarding Alzheimer's symptoms include:")
             st.write(""":blue[**Memory Loss:**] One of the hallmark symptoms of Alzheimer's is memory loss, particularly in the early stages. Individuals may have difficulty remembering recent events, names, and conversations.
 
 :blue[**Cognitive Decline:**] As the disease advances, cognitive decline becomes more pronounced. Individuals may struggle with problem-solving, decision-making, and abstract thinking.
@@ -83,6 +83,7 @@ def homee():
             st.write("##")
             st.write("##")
             st_lottie(cong, speed=1, reverse=False, loop=True, quality="high", height= None , width = None, key=None)
+            st.write("Alzheimer's disease is a complex neurological condition influenced by a combination of genetic, environmental, and lifestyle factors. While the exact cause remains elusive, researchers have identified several significant causes and risk factors associated with the development of Alzheimer's. Some key points to consider include:")
             st.write(""":blue[**Cardiovascular Risk Factors:**] Certain cardiovascular risk factors, such as high blood pressure, high cholesterol levels, diabetes, and obesity, are associated with an increased risk of Alzheimer's disease.
 
 :blue[**Head Trauma:**] A history of severe head injuries, especially repeated concussions, may increase the risk of developing Alzheimer's later in life.
@@ -93,7 +94,7 @@ def homee():
 
 """)
         with col2:
-            st.write("Alzheimer's disease is a complex neurological condition influenced by a combination of genetic, environmental, and lifestyle factors. While the exact cause remains elusive, researchers have identified several significant causes and risk factors associated with the development of Alzheimer's. Some key points to consider include:")
+            
             st.write(""":blue[**Genetics:**] Family history plays a crucial role in Alzheimer's risk. Individuals with a first-degree relative (parent or sibling) who had Alzheimer's are at a higher risk of developing the disease themselves. Specific genes, such as the APOE gene variants (particularly APOE ε4), are linked to an increased risk of Alzheimer's.
 
 :blue[**Age:**] Advancing age is the most significant risk factor for Alzheimer's disease. The likelihood of developing the condition increases dramatically after the age of 65, and the risk continues to rise with each decade of life.
