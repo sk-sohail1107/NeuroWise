@@ -32,7 +32,7 @@ def homee():
     with st.container():
         st.write("---")
         st.header("What is Alzheimer's Disease?")
-        image, content = st.columns([1.5,2])    
+        image, content = st.columns([2,1.5])    
 
 
         with image:
@@ -40,7 +40,7 @@ def homee():
             #   st.write("##")
         with content:
             
-            st.write("Alzheimer's disease is a progressive neurological disorder affecting the brain, leading to a gradual and irreversible decline in cognitive function and memory. It is the most common cause of dementia in older adults, impacting millions globally. The disease is characterized by the accumulation of abnormal protein deposits, amyloid plaques, and neurofibrillary tangles in the brain, disrupting cell communication and triggering inflammation. As Alzheimer's progresses, individuals experience memory loss, difficulties in daily tasks, confusion, mood swings, and dependency on caregivers. While the exact cause remains unknown, advancing age, genetics, and certain risk factors contribute to its development. Although there is no cure, treatments exist to manage symptoms and improve quality of life. Alzheimer's imposes emotional, financial, and societal burdens, underscoring the need for research, support, and awareness efforts to combat this profound healthcare challenge.")
+            st.write("Alzheimer's disease is a progressive neurological disorder causing irreversible cognitive decline and memory loss. It's the leading cause of dementia in older adults, affecting millions worldwide. Abnormal protein deposits disrupt brain cell communication, leading to confusion, mood swings, and dependency on caregivers. While the exact cause is unknown, advancing age, genetics, and risk factors contribute to its development. Though no cure exists, treatments manage symptoms and enhance life quality. Alzheimer's imposes emotional, financial, and societal burdens, necessitating research, support, and awareness to address this significant healthcare challenge.")
 
 
     with st.container():
@@ -51,6 +51,16 @@ def homee():
 
         with image:
             st.image(image2)
+            st.write(""":blue[**Loss of Initiative:**] Apathy and a reduced sense of initiative are common in later stages of the disease, leading to a decline in engaging in activities they once enjoyed.
+
+:blue[**Difficulties in Self-Care:**] As Alzheimer's progresses, individuals may struggle with basic self-care tasks like dressing, bathing, and eating.
+
+:blue[Sleep Disturbances:] Alzheimer's can disrupt sleep patterns, leading to nighttime wandering and daytime sleepiness.
+
+:blue[Inability to Recognize Objects:] Individuals may have difficulty recognizing everyday objects, which can lead to confusion and frustration.
+
+""")
+
         with content:
             st.write("Alzheimer's disease manifests through a wide range of symptoms that progress gradually over time. These symptoms can significantly impact an individual's cognitive abilities, behavior, and daily functioning. Some key points to consider regarding Alzheimer's symptoms include:")
             st.write(""":blue[**Memory Loss:**] One of the hallmark symptoms of Alzheimer's is memory loss, particularly in the early stages. Individuals may have difficulty remembering recent events, names, and conversations.
@@ -74,6 +84,15 @@ def homee():
             st.write("##")
             st.write("##")
             st_lottie(cong, speed=1, reverse=False, loop=True, quality="high", height= None , width = None, key=None)
+            st.write(""":blue[**Cardiovascular Risk Factors:**] Certain cardiovascular risk factors, such as high blood pressure, high cholesterol levels, diabetes, and obesity, are associated with an increased risk of Alzheimer's disease.
+
+:blue[**Head Trauma:**] A history of severe head injuries, especially repeated concussions, may increase the risk of developing Alzheimer's later in life.
+
+:blue[**Lifestyle Factors:**] Engaging in a healthy lifestyle that includes regular physical activity, a balanced diet, mental stimulation, and social engagement may potentially reduce the risk of developing Alzheimer's.
+
+:blue[**Environmental Exposures:**] Some studies suggest that exposure to certain environmental toxins or pollutants may be linked to an increased risk of Alzheimer's disease.
+
+""")
         with col2:
             st.write("Alzheimer's disease is a complex neurological condition influenced by a combination of genetic, environmental, and lifestyle factors. While the exact cause remains elusive, researchers have identified several significant causes and risk factors associated with the development of Alzheimer's. Some key points to consider include:")
             st.write(""":blue[**Genetics:**] Family history plays a crucial role in Alzheimer's risk. Individuals with a first-degree relative (parent or sibling) who had Alzheimer's are at a higher risk of developing the disease themselves. Specific genes, such as the APOE gene variants (particularly APOE ε4), are linked to an increased risk of Alzheimer's.

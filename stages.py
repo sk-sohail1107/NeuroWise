@@ -19,14 +19,14 @@ image1 = Image.open("images/mild_medications.jpg")
 med2 = Image.open("images/med2.jpg")
 
 def doc(pic, headerr, sub, cont1, linkk):
-    col1, col2, col3, col4 = st.columns([1, 3, 3, 2])
+    col1, col2, col3, col4 = st.columns([0.5, 3, 3, 1])
     with col1:
         st.empty()
     with col2:
         st.image(pic)
     with col3:
         st.header(headerr)
-        st.subheader(sub)
+        st.write(sub)
         st.write(cont1)
         st.write(linkk)
     with col4:
@@ -78,15 +78,15 @@ def veryMildDemented():
     with tab3:
         st.title(":blue[**Best Alzheimers Disease Treatment Doctors in Hyderabad**]")
         st.divider()
-        doc(sudhir_kumar, "Dr. Sudhir Kumar", "Neurologist, Hyderabad, India", "Consultant, 17 years of experience",  " :calendar: [APOLLO HOSPITALS, JUBILEE HILLS HYDERABAD](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
+        doc(sudhir_kumar, "Dr. Sudhir Kumar", "Neurologist, Hyderabad, India", "Consultant, 17 years of experience",  " :calendar:[APOLLO HOSPITALS, JUBILEE HILLS](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
         st.divider()
-        doc(srikanth_vemula, "Dr. Srikanth Vemula", "Neurologist, Hyderabad, India", "Consultant, 20 years of experience",  " :calendar: [APOLLO HOSPITALS, JUBILEE HILLS HYDERABAD](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
+        doc(srikanth_vemula, "Dr. Srikanth Vemula", "Neurologist, Hyderabad, India", "Consultant, 20 years of experience",  " :calendar:[APOLLO HOSPITALS, JUBILEE HILLS](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
         st.divider()
-        doc(rajashekar_reddy, "Dr. Rajasekhar Reddy K", "Neurologist, Hyderabad, India", "Consultant, 24 years of experience",  " :calendar: [APOLLO HOSPITALS, JUBILEE HILLS HYDERABAD](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
+        doc(rajashekar_reddy, "Dr. Rajasekhar Reddy K", "Neurologist, Hyderabad, India", "Consultant, 24 years of experience",  " :calendar:[APOLLO HOSPITALS, JUBILEE HILLS](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
         st.divider()
-        doc(dr_sandhya, "Dr. Sandhya Manorenj", "Neurologist, Hyderabad, India", "Consultant, 21 years of experience",  " :calendar: [PACE HOSPITAL, HYDERABAD](https://www.vaidam.com/hospitals/pace-hospital-hyderabad)")
+        doc(dr_sandhya, "Dr. Sandhy Manorenj", "Neurologist, Hyderabad, India", "Consultant, 21 years of experience",  " :calendar:[PACE HOSPITAL, HYDERABAD](https://www.vaidam.com/hospitals/pace-hospital-hyderabad)")
         st.divider()
-        doc(subodh_raju, "Dr. Subodh Raju", "Neurologist, Hyderabad, India", "Consultant, 20 years of experience",  " :calendar: [RAINBOW CHILDREN'S HOSPITAL, HYDERABAD](https://www.vaidam.com/hospitals/rainbow-childrens-hospital-hyderabad)")
+        doc(subodh_raju, "Dr. Subodh Raju", "Neurologist, Hyderabad, India", "Consultant, 20 years of experience",  " :calendar:[RAINBOW CHILDREN'S HOSPITAL, HYDERABAD](https://www.vaidam.com/hospitals/rainbow-childrens-hospital-hyderabad)")
         st.divider()
 
 
@@ -122,15 +122,15 @@ def mildDemented():
     with tab3:
         st.title(":blue[**Best Alzheimers Disease Treatment Doctors in Hyderabad**]")
         st.divider()
-        doc(sudhir_kumar, "Dr. Sudhir Kumar", "Neurologist, Hyderabad, India", "Consultant, 17 years of experience",  " :calendar: [APOLLO HOSPITALS, JUBILEE HILLS HYDERABAD](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
+        doc(sudhir_kumar, "Dr. Sudhir Kumar", "Neurologist, Hyderabad, India", "Consultant, 17 years of experience",  " :calendar:[APOLLO HOSPITALS, JUBILEE HILLS](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
         st.divider()
-        doc(srikanth_vemula, "Dr. Srikanth Vemula", "Neurologist, Hyderabad, India", "Consultant, 20 years of experience",  " :calendar: [APOLLO HOSPITALS, JUBILEE HILLS HYDERABAD](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
+        doc(srikanth_vemula, "Dr. Srikanth Vemula", "Neurologist, Hyderabad, India", "Consultant, 20 years of experience",  " :calendar:[APOLLO HOSPITALS, JUBILEE HILLS](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
         st.divider()
-        doc(rajashekar_reddy, "Dr. Rajasekhar Reddy K", "Neurologist, Hyderabad, India", "Consultant, 24 years of experience",  " :calendar: [APOLLO HOSPITALS, JUBILEE HILLS HYDERABAD](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
+        doc(rajashekar_reddy, "Dr. Rajasekhar Reddy K", "Neurologist, Hyderabad, India", "Consultant, 24 years of experience",  " :calendar:[APOLLO HOSPITALS, JUBILEE HILLS](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
         st.divider()
-        doc(dr_sandhya, "Dr. Sandhya Manorenj", "Neurologist, Hyderabad, India", "Consultant, 21 years of experience",  " :calendar: [PACE HOSPITAL, HYDERABAD](https://www.vaidam.com/hospitals/pace-hospital-hyderabad)")
+        doc(dr_sandhya, "Dr. Sandhy Manorenj", "Neurologist, Hyderabad, India", "Consultant, 21 years of experience",  " :calendar:[PACE HOSPITAL, HYDERABAD](https://www.vaidam.com/hospitals/pace-hospital-hyderabad)")
         st.divider()
-        doc(subodh_raju, "Dr. Subodh Raju", "Neurologist, Hyderabad, India", "Consultant, 20 years of experience",  " :calendar: [RAINBOW CHILDREN'S HOSPITAL, HYDERABAD](https://www.vaidam.com/hospitals/rainbow-childrens-hospital-hyderabad)")
+        doc(subodh_raju, "Dr. Subodh Raju", "Neurologist, Hyderabad, India", "Consultant, 20 years of experience",  " :calendar:[RAINBOW CHILDREN'S HOSPITAL, HYDERABAD](https://www.vaidam.com/hospitals/rainbow-childrens-hospital-hyderabad)")
         st.divider()
         
 def moderateDemented():
@@ -176,13 +176,13 @@ def moderateDemented():
     with tab3:
         st.title(":blue[**Best Alzheimers Disease Treatment Doctors in Hyderabad**]")
         st.divider()
-        doc(sudhir_kumar, "Dr. Sudhir Kumar", "Neurologist, Hyderabad, India", "Consultant, 17 years of experience",  " :calendar: [APOLLO HOSPITALS, JUBILEE HILLS HYDERABAD](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
+        doc(sudhir_kumar, "Dr. Sudhir Kumar", "Neurologist, Hyderabad, India", "Consultant, 17 years of experience",  " :calendar:[APOLLO HOSPITALS, JUBILEE HILLS](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
         st.divider()
-        doc(srikanth_vemula, "Dr. Srikanth Vemula", "Neurologist, Hyderabad, India", "Consultant, 20 years of experience",  " :calendar: [APOLLO HOSPITALS, JUBILEE HILLS HYDERABAD](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
+        doc(srikanth_vemula, "Dr. Srikanth Vemula", "Neurologist, Hyderabad, India", "Consultant, 20 years of experience",  " :calendar:[APOLLO HOSPITALS, JUBILEE HILLS](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
         st.divider()
-        doc(rajashekar_reddy, "Dr. Rajasekhar Reddy K", "Neurologist, Hyderabad, India", "Consultant, 24 years of experience",  " :calendar: [APOLLO HOSPITALS, JUBILEE HILLS HYDERABAD](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
+        doc(rajashekar_reddy, "Dr. Rajasekhar Reddy K", "Neurologist, Hyderabad, India", "Consultant, 24 years of experience",  " :calendar:[APOLLO HOSPITALS, JUBILEE HILLS](https://www.vaidam.com/hospitals/apollo-hospitals-hyderabad)")
         st.divider()
-        doc(dr_sandhya, "Dr. Sandhya Manorenj", "Neurologist, Hyderabad, India", "Consultant, 21 years of experience",  " :calendar: [PACE HOSPITAL, HYDERABAD](https://www.vaidam.com/hospitals/pace-hospital-hyderabad)")
+        doc(dr_sandhya, "Dr. Sandhy Manorenj", "Neurologist, Hyderabad, India", "Consultant, 21 years of experience",  " :calendar:[PACE HOSPITAL, HYDERABAD](https://www.vaidam.com/hospitals/pace-hospital-hyderabad)")
         st.divider()
-        doc(subodh_raju, "Dr. Subodh Raju", "Neurologist, Hyderabad, India", "Consultant, 20 years of experience",  " :calendar: [RAINBOW CHILDREN'S HOSPITAL, HYDERABAD](https://www.vaidam.com/hospitals/rainbow-childrens-hospital-hyderabad)")
+        doc(subodh_raju, "Dr. Subodh Raju", "Neurologist, Hyderabad, India", "Consultant, 20 years of experience",  " :calendar:[RAINBOW CHILDREN'S HOSPITAL, HYDERABAD](https://www.vaidam.com/hospitals/rainbow-childrens-hospital-hyderabad)")
         st.divider()
