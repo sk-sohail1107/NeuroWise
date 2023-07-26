@@ -51,9 +51,6 @@ def homee():
         with image:
             st.image(image2)
             st.write("Alzheimer's disease manifests through a wide range of symptoms that progress gradually over time. These symptoms can significantly impact an individual's cognitive abilities, behavior, and daily functioning. Some key points to consider regarding Alzheimer's symptoms include:")
-            st.write(""":blue[**Loss of Initiative:**] Apathy and a reduced sense of initiative are common in later stages of the disease, leading to a decline in engaging in activities they once enjoyed.
-
-""")
 
         with content:
             st.write(""":blue[**Memory Loss:**] One of the hallmark symptoms of Alzheimer's is memory loss, particularly in the early stages. Individuals may have difficulty remembering recent events, names, and conversations.
