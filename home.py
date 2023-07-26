@@ -31,7 +31,7 @@ def homee():
     with st.container():
         st.write("---")
         st.header("What is Alzheimer's Disease?")
-        image, content = st.columns([2,1.5])    
+        image, content = st.columns([2,2])    
 
 
         with image:
@@ -55,10 +55,6 @@ def homee():
 
 :blue[**Difficulties in Self-Care:**] As Alzheimer's progresses, individuals may struggle with basic self-care tasks like dressing, bathing, and eating.
 
-:blue[Sleep Disturbances:] Alzheimer's can disrupt sleep patterns, leading to nighttime wandering and daytime sleepiness.
-
-:blue[Inability to Recognize Objects:] Individuals may have difficulty recognizing everyday objects, which can lead to confusion and frustration.
-
 """)
 
         with content:
@@ -71,6 +67,10 @@ def homee():
 :blue[**Language Difficulties:**] Expressing oneself and understanding language can become challenging. Finding the right words and following conversations may be difficult.
 
 :blue[**Mood Swings and Behavioral Changes:**] Alzheimer's can lead to mood swings, irritability, anxiety, and agitation. Individuals may withdraw from social interactions and display uncharacteristic behaviors.
+
+:blue[Sleep Disturbances:] Alzheimer's can disrupt sleep patterns, leading to nighttime wandering and daytime sleepiness.
+
+:blue[Inability to Recognize Objects:] Individuals may have difficulty recognizing everyday objects, which can lead to confusion and frustration.
 
 """)
         
@@ -88,10 +88,6 @@ def homee():
 
 :blue[**Head Trauma:**] A history of severe head injuries, especially repeated concussions, may increase the risk of developing Alzheimer's later in life.
 
-:blue[**Lifestyle Factors:**] Engaging in a healthy lifestyle that includes regular physical activity, a balanced diet, mental stimulation, and social engagement may potentially reduce the risk of developing Alzheimer's.
-
-:blue[**Environmental Exposures:**] Some studies suggest that exposure to certain environmental toxins or pollutants may be linked to an increased risk of Alzheimer's disease.
-
 """)
         with col2:
             
@@ -104,6 +100,10 @@ def homee():
 :blue[**Family History and Heredity:**] People with a family history of Alzheimer's are at a higher risk, suggesting a genetic predisposition to the disease.
 
 :blue[**Gender:**] Women are generally at a slightly higher risk of developing Alzheimer's compared to men, although the reasons for this difference are not fully understood.
+
+:blue[**Lifestyle Factors:**] Engaging in a healthy lifestyle that includes regular physical activity, a balanced diet, mental stimulation, and social engagement may potentially reduce the risk of developing Alzheimer's.
+
+:blue[**Environmental Exposures:**] Some studies suggest that exposure to certain environmental toxins or pollutants may be linked to an increased risk of Alzheimer's disease.
 
 """)
 
