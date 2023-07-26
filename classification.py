@@ -3,7 +3,7 @@ from streamlit_option_menu import option_menu
 from PIL import Image, ImageOps
 import stages;
 import tensorflow as tf
-import cv2
+import opencv_python as cv
 import numpy as np
 
 
