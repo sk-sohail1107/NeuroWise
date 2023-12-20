@@ -34,7 +34,7 @@ def classificationn():
     uploaded_photo = st.file_uploader("Upload MRI scan", type = ["jpg", "png"])
     print(uploaded_photo)
     if uploaded_photo is None:
-        st.write("Please Upload the MRI scan")
+        st.write("Please upload the MRI scan")
     else:
         file_bytes = np.asarray(bytearray(uploaded_photo.read()), dtype=np.uint8)
         opencv_image = cv2.imdecode(file_bytes, 1)
